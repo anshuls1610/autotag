@@ -1,0 +1,13 @@
+.app {
+  text-align: center;
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.signin{
+  display: flex;
+  flex-direction: column;
+}
