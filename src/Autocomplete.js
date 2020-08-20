@@ -93,7 +93,7 @@ export class Autocomplete extends Component {
     } = this;
 
     let suggestionsListComponent;
-    if (showSuggestions && userInput.length === 3) {
+    if (showSuggestions && userInput.length >= 3) {
       if (filteredSuggestions.length) {
         suggestionsListComponent = (
           <ul className="suggestions">
